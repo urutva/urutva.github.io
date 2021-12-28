@@ -1,0 +1,101 @@
+baseURL: "https://www.urutva.com/"
+title: Devaraj Ranganna
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+menu:
+  main:
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 10
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 20
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
+params:
+  env: production
+  title: Devaraj Ranganna's blogs
+  description: "My blogs"
+  keywords: [Blog, Technology]
+  author: Devaraj Ranganna
+  # images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: dark
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  showtoc: true
+  tocopen: false
+
+  label:
+    text: "urutva"
+    # icon: /apple-touch-icon.png
+    # iconHeight: 35
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Devaraj Ranganna"
+    Content: >
+      An engineer passionate about open source and curious about everything.
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/urutva"
+    - name: linkedin
+      url: "https://uk.linkedin.com/in/urutva"
+    - name: twitter
+      url: "https://twitter.com/urutva"
+
+  # profile-mode
+  profileMode:
+    enabled: false
+    title: Title
+    subtitle: "This is subtitle"
+    imageUrl: "<img location>"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+
+  cover:
+    hidden: true
+    hiddenInList: true
+    hiddenInSingle: true
