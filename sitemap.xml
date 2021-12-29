@@ -2,12 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.urutva.com/categories/</loc>
-  </url><url>
     <loc>https://www.urutva.com/</loc>
+    <lastmod>2021-12-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.urutva.com/search/</loc>
+    <loc>https://www.urutva.com/tags/linux/</loc>
+    <lastmod>2021-12-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.urutva.com/posts/</loc>
+    <lastmod>2021-12-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.urutva.com/tags/remote-development/</loc>
+    <lastmod>2021-12-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.urutva.com/tags/ssh/</loc>
+    <lastmod>2021-12-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.urutva.com/tags/</loc>
+    <lastmod>2021-12-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.urutva.com/tags/ubuntu/</loc>
+    <lastmod>2021-12-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.urutva.com/tags/virtualbox/</loc>
+    <lastmod>2021-12-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.urutva.com/tags/vs-code/</loc>
+    <lastmod>2021-12-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.urutva.com/posts/vscode-remote/</loc>
+    <lastmod>2021-12-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.urutva.com/categories/</loc>
+  </url><url>
+    <loc>https://www.urutva.com/search/</loc>
   </url>
 </urlset>
