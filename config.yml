@@ -14,14 +14,22 @@ minify:
 
 menu:
   main:
+    - identifier: posts
+      name: Tech blogs
+      url: /posts/
+      weight: 10
+    - identifier: travel
+      name: Travel blogs
+      url: /travel/
+      weight: 20
     - identifier: tags
       name: Tags
       url: /tags/
-      weight: 10
+      weight: 30
     - identifier: search
       name: Search
       url: /search/
-      weight: 20
+      weight: 40
 
 outputs:
     home:
@@ -55,12 +63,6 @@ params:
     # icon: /apple-touch-icon.png
     # iconHeight: 35
 
-  # home-info mode
-  homeInfoParams:
-    Title: "Devaraj Ranganna"
-    Content: >
-      An engineer passionate about open source and curious about everything.
-
   # for search
   # https://fusejs.io/api/options.html
   fuseOpts:
@@ -82,18 +84,14 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: false
-    title: Title
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
+    enabled: true
+    title: Devaraj Ranganna
+    subtitle: "An engineer passionate about open source and curious about everything."
     buttons:
-      - name: Posts
+      - name: Tech blogs
         url: posts
-      - name: Tags
-        url: tags
+      - name: Travel blogs
+        url: travel
 
   cover:
     hidden: true
