@@ -8,9 +8,6 @@
     <loc>https://www.urutva.com/tags/linux/</loc>
     <lastmod>2021-12-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.urutva.com/posts/</loc>
-    <lastmod>2021-12-29T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.urutva.com/tags/remote-development/</loc>
     <lastmod>2021-12-29T00:00:00+00:00</lastmod>
   </url><url>
@@ -18,6 +15,9 @@
     <lastmod>2021-12-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.urutva.com/tags/</loc>
+    <lastmod>2021-12-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.urutva.com/posts/</loc>
     <lastmod>2021-12-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.urutva.com/tags/ubuntu/</loc>
@@ -35,5 +35,7 @@
     <loc>https://www.urutva.com/categories/</loc>
   </url><url>
     <loc>https://www.urutva.com/search/</loc>
+  </url><url>
+    <loc>https://www.urutva.com/travel/</loc>
   </url>
 </urlset>
