@@ -76,6 +76,8 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 
   socialIcons:
+    - name: youtube
+      url:  "https://www.youtube.com/channel/UCtJyqBnw4O_KFVF1e7BZt5g"
     - name: github
       url: "https://github.com/urutva"
     - name: linkedin
