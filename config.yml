@@ -86,7 +86,11 @@ params:
   profileMode:
     enabled: true
     title: Devaraj Ranganna
-    subtitle: "An engineer passionate about open source and curious about everything."
+    subtitle: >
+              An engineer in me is passionate about open source
+              and curious about everything else.
+
+               A wanderer in me loves traveling around the world
     buttons:
       - name: Tech blogs
         url: posts
